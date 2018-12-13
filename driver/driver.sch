@@ -141,21 +141,21 @@ EN
 $Comp
 L Connector_Generic:Conn_01x06 J1
 U 1 1 5C1E3650
-P 1000 2200
-F 0 "J1" H 1000 2500 50  0000 C CNN
-F 1 "signal_in" V 1100 2150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 1000 2200 50  0001 C CNN
-F 3 "~" H 1000 2200 50  0001 C CNN
-	1    1000 2200
-	-1   0    0    -1  
+P 1000 2300
+F 0 "J1" H 1000 2600 50  0000 C CNN
+F 1 "signal_in" V 1100 2250 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 1000 2300 50  0001 C CNN
+F 3 "~" H 1000 2300 50  0001 C CNN
+	1    1000 2300
+	-1   0    0    1   
 $EndComp
-Text Label 1200 2400 0    50   ~ 0
-signal4
-Text Label 1200 2300 0    50   ~ 0
-signal3
-Text Label 1200 2200 0    50   ~ 0
-signal2
 Text Label 1200 2100 0    50   ~ 0
+signal4
+Text Label 1200 2400 0    50   ~ 0
+signal3
+Text Label 1200 2300 0    50   ~ 0
+signal2
+Text Label 1200 2200 0    50   ~ 0
 signal1
 $Comp
 L power:GND #PWR02
@@ -203,7 +203,6 @@ F 3 "~" H 1550 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1550 2500 1200 2500
-Connection ~ 1200 2500
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5C14A492
@@ -217,7 +216,6 @@ F 3 "~" H 1550 2000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1550 2000 1200 2000
-Connection ~ 1200 2000
 Text Label 1400 1300 3    50   ~ 0
 EN
 $Comp
@@ -231,4 +229,6 @@ F 3 "" H 1400 1000 50  0001 C CNN
 	1    1400 1000
 	1    0    0    -1  
 $EndComp
+Connection ~ 1200 2000
+Connection ~ 1200 2500
 $EndSCHEMATC
