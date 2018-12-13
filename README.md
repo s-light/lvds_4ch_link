@@ -1,7 +1,20 @@
+<!--lint disable list-item-indent-->
+<!--lint disable list-item-bullet-indent-->
+
 # lvds_4ch_link
-Simple LVDS 4ch Link over Network-Patchkabel
+Simple LVDS 4ch Link over network-patch-cable
+
+can be used for SPI, UART or simple GPIO
+
+- Receiver: TI [SN65LVDT348](http://www.ti.com/product/SN65LVDT348)
+- Driver: TI [SN65LVDS391](http://www.ti.com/product/SN65LVDS391)
 
 
+
+
+
+
+---
 
 # License
 <!-- license info -->

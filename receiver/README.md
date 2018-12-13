@@ -1,6 +1,6 @@
 # LVDS 4ch Link - Receiver
 
-some description..
+for now have a look at the main [readme](../README.md)
 
 
 
