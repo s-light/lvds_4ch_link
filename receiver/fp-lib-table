@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Connector_RJ)(type KiCad)(uri /home/stefan/mydata/github/kicad/kicad-footprints/Connector_RJ.pretty)(options "")(descr MOD))
+)

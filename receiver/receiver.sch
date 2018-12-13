@@ -26,12 +26,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/sn65lvdt348.pdf" H 7650 2000 50  0001 C CN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:8P8C_Shielded J1
+L Connector:8P8C_Shielded J2
 U 1 1 5C15786C
 P 5800 2500
-F 0 "J1" H 5857 3167 50  0000 C CNN
+F 0 "J2" H 5857 3167 50  0000 C CNN
 F 1 "LVDS_input" H 5857 3076 50  0000 C CNN
-F 2 "Connector_RJ:RJ45_Amphenol_RJHSE5380" V 5800 2525 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_Stewart_SS-6488S-A-NF" V 5800 2525 50  0001 C CNN
 F 3 "~" V 5800 2525 50  0001 C CNN
 	1    5800 2500
 	1    0    0    -1  
@@ -56,29 +56,29 @@ Text Label 6200 2200 0    50   ~ 0
 pair4-
 Text Label 6200 2100 0    50   ~ 0
 pair4+
-Text Label 8200 2000 0    50   ~ 0
-signal4
 Text Label 8200 2900 0    50   ~ 0
+signal4
+Text Label 8200 2000 0    50   ~ 0
 signal3
-Text Label 8200 2600 0    50   ~ 0
-signal2
 Text Label 8200 2300 0    50   ~ 0
+signal2
+Text Label 8200 2600 0    50   ~ 0
 signal1
-Text Label 7000 2800 2    50   ~ 0
-pair3-
-Text Label 7000 2900 2    50   ~ 0
-pair3+
-Text Label 7000 2500 2    50   ~ 0
-pair2-
-Text Label 7000 2600 2    50   ~ 0
-pair2+
-Text Label 7000 2200 2    50   ~ 0
-pair1-
-Text Label 7000 2300 2    50   ~ 0
-pair1+
 Text Label 7000 1900 2    50   ~ 0
-pair4-
+pair3-
 Text Label 7000 2000 2    50   ~ 0
+pair3+
+Text Label 7000 2200 2    50   ~ 0
+pair2-
+Text Label 7000 2300 2    50   ~ 0
+pair2+
+Text Label 7000 2500 2    50   ~ 0
+pair1-
+Text Label 7000 2600 2    50   ~ 0
+pair1+
+Text Label 7000 2800 2    50   ~ 0
+pair4-
+Text Label 7000 2900 2    50   ~ 0
 pair4+
 NoConn ~ 5800 3000
 NoConn ~ 7000 1700
@@ -140,60 +140,59 @@ $EndComp
 Text Label 7000 1600 2    50   ~ 0
 EN
 $Comp
-L Connector_Generic:Conn_01x06 J2
+L Connector_Generic:Conn_01x06 J1
 U 1 1 5C221C21
-P 9500 2200
-F 0 "J2" H 9500 2500 50  0000 C CNN
-F 1 "signal_out" V 9600 2150 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 9500 2200 50  0001 C CNN
-F 3 "~" H 9500 2200 50  0001 C CNN
-	1    9500 2200
-	1    0    0    -1  
+P 9500 2250
+F 0 "J1" H 9500 2550 50  0000 C CNN
+F 1 "signal_out" V 9600 2200 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 9500 2250 50  0001 C CNN
+F 3 "~" H 9500 2250 50  0001 C CNN
+	1    9500 2250
+	1    0    0    1   
 $EndComp
-Text Label 9300 2400 2    50   ~ 0
+Text Label 9300 2050 2    50   ~ 0
 signal4
-Text Label 9300 2300 2    50   ~ 0
+Text Label 9300 2350 2    50   ~ 0
 signal3
-Text Label 9300 2200 2    50   ~ 0
+Text Label 9300 2250 2    50   ~ 0
 signal2
-Text Label 9300 2100 2    50   ~ 0
+Text Label 9300 2150 2    50   ~ 0
 signal1
 $Comp
 L power:GND #PWR06
 U 1 1 5C221C2F
-P 9300 2500
-F 0 "#PWR06" H 9300 2250 50  0001 C CNN
-F 1 "GND" H 9305 2327 50  0000 C CNN
-F 2 "" H 9300 2500 50  0001 C CNN
-F 3 "" H 9300 2500 50  0001 C CNN
-	1    9300 2500
+P 9300 2450
+F 0 "#PWR06" H 9300 2200 50  0001 C CNN
+F 1 "GND" H 9305 2277 50  0000 C CNN
+F 2 "" H 9300 2450 50  0001 C CNN
+F 3 "" H 9300 2450 50  0001 C CNN
+	1    9300 2450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR05
 U 1 1 5C221C39
-P 9300 2000
-F 0 "#PWR05" H 9300 1850 50  0001 C CNN
-F 1 "+3.3V" H 9315 2173 50  0000 C CNN
-F 2 "" H 9300 2000 50  0001 C CNN
-F 3 "" H 9300 2000 50  0001 C CNN
-	1    9300 2000
+P 9300 1950
+F 0 "#PWR05" H 9300 1800 50  0001 C CNN
+F 1 "+3.3V" H 9315 2123 50  0000 C CNN
+F 2 "" H 9300 1950 50  0001 C CNN
+F 3 "" H 9300 1950 50  0001 C CNN
+	1    9300 1950
 	-1   0    0    -1  
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5C138695
-P 8950 2000
-F 0 "#FLG0101" H 8950 2075 50  0001 C CNN
-F 1 "PWR_FLAG" H 8950 2173 50  0000 C CNN
-F 2 "" H 8950 2000 50  0001 C CNN
-F 3 "~" H 8950 2000 50  0001 C CNN
-	1    8950 2000
-	1    0    0    -1  
+P 8950 2450
+F 0 "#FLG0101" H 8950 2525 50  0001 C CNN
+F 1 "PWR_FLAG" H 8950 2623 50  0000 C CNN
+F 2 "" H 8950 2450 50  0001 C CNN
+F 3 "~" H 8950 2450 50  0001 C CNN
+	1    8950 2450
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8950 2000 9300 2000
-Connection ~ 9300 2000
+	8950 2450 9300 2450
 $Comp
 L power:+3.3V #PWR0101
 U 1 1 5C13D627
@@ -221,15 +220,16 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5C142446
-P 9000 2500
-F 0 "#FLG0102" H 9000 2575 50  0001 C CNN
-F 1 "PWR_FLAG" H 9000 2673 50  0000 C CNN
-F 2 "" H 9000 2500 50  0001 C CNN
-F 3 "~" H 9000 2500 50  0001 C CNN
-	1    9000 2500
-	-1   0    0    1   
+P 8950 1950
+F 0 "#FLG0102" H 8950 2025 50  0001 C CNN
+F 1 "PWR_FLAG" H 8950 2123 50  0000 C CNN
+F 2 "" H 8950 1950 50  0001 C CNN
+F 3 "~" H 8950 1950 50  0001 C CNN
+	1    8950 1950
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 2500 9300 2500
-Connection ~ 9300 2500
+	8950 1950 9300 1950
+Connection ~ 9300 1950
+Connection ~ 9300 2450
 $EndSCHEMATC
