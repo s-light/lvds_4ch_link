@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Interface)(type Legacy)(uri /home/stefan/mydata/github/kicad/kicad-symbols/Interface.lib)(options "")(descr MOD))
+)
