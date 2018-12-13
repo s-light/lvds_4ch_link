@@ -10,7 +10,8 @@ can be used for SPI, UART or simple GPIO
 - Driver: TI [SN65LVDS391](http://www.ti.com/product/SN65LVDS391)
 
 
-
+![Driver](driver/export/3d/driver_3d.png)
+![Receiver](receiver/export/3d/receiver_3d.png)
 
 
 
