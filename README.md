@@ -12,6 +12,8 @@ can be used for SPI, UART or simple GPIO
 
 ![Driver](driver/export/3d/driver_3d.png)
 ![Receiver](receiver/export/3d/receiver_3d.png)
+![Receiver Mini](receiver_mini/export/3d/receiver_mini.png)
+![Receiver Mini](receiver_mini/export/3d/receiver_mini_back.png)
 
 
 
