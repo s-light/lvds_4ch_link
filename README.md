@@ -15,6 +15,10 @@ can be used for SPI, UART or simple GPIO
 ![Receiver Mini](receiver_mini/export/3d/receiver_mini.png)
 ![Receiver Mini](receiver_mini/export/3d/receiver_mini_back.png)
 
+![Real Boards - Soldered...](pictures/P1700415_small.jpg)
+![Real Boards - Soldered...](pictures/P1700417_small.jpg)
+![Real Boards - Soldered...](pictures/P1700414_small.jpg)
+
 
 
 ---
